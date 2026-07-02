@@ -15,24 +15,24 @@ ADMIN_PASSWORD = "admin123"
   
 menu = {
     "Burgers": [
-        MenuItem("Classic Burger", 5.99, "/static/images/classic.jpg", "Burgers"),
-        MenuItem("Cheese Burger", 6.49, "/static/images/cheese.jpg", "Burgers"),
-        MenuItem("Veggie Burger", 5.49, "/static/images/veggie.jpg", "Burgers"),
-        MenuItem("Bacon Burger", 7.29, "/static/images/bacon.jpg", "Burgers"),
-        MenuItem("Mushroom Swiss Burger", 7.49, "/static/images/mushroom_swiss.jpg", "Burgers"),
-        MenuItem("Spicy Jalapeño Burger", 6.99, "/static/images/jalapeno.jpg", "Burgers")
+        MenuItem("Classic Burger", 5.99, "/static/Images/classic.jpg", "Burgers"),
+        MenuItem("Cheese Burger", 6.49, "/static/Images/cheese.jpg", "Burgers"),
+        MenuItem("Veggie Burger", 5.49, "/static/Images/veggie.jpg", "Burgers"),
+        MenuItem("Bacon Burger", 7.29, "/static/Images/bacon.jpg", "Burgers"),
+        MenuItem("Mushroom Swiss Burger", 7.49, "/static/Images/mushroom_swiss.jpg", "Burgers"),
+        MenuItem("Spicy Jalapeño Burger", 6.99, "/static/Images/jalapeno.jpg", "Burgers")
     ],
     "Sides": [
-        MenuItem("Fries", 2.49, "/static/images/fries.jpg", "Sides"),
-        MenuItem("Onion Rings", 2.99, "/static/images/onion.jpg", "Sides"),
-        MenuItem("Sweet Potato Fries", 3.49, "/static/images/sweet_potato_fries.jpg", "Sides"),
-        MenuItem("Mozzarella Sticks", 4.29, "/static/images/mozzarella.jpg", "Sides")
+        MenuItem("Fries", 2.49, "/static/Images/fries.jpg", "Sides"),
+        MenuItem("Onion Rings", 2.99, "/static/Images/onion.jpg", "Sides"),
+        MenuItem("Sweet Potato Fries", 3.49, "/static/Images/sweet_potato_fries.jpg", "Sides"),
+        MenuItem("Mozzarella Sticks", 4.29, "/static/Images/mozzarella.jpg", "Sides")
     ],
     "Drinks": [
-        MenuItem("Soda", 1.99, "/static/images/soda.jpg", "Drinks"),
-        MenuItem("Milkshake", 3.49, "/static/images/milkshake.jpg", "Drinks"),
-        MenuItem("Iced Tea", 2.29, "/static/images/iced_tea.jpg", "Drinks"),
-        MenuItem("Lemonade", 2.29, "/static/images/lemonade.jpg", "Drinks")
+        MenuItem("Soda", 1.99, "/static/Images/soda.jpg", "Drinks"),
+        MenuItem("Milkshake", 3.49, "/static/Images/milkshake.jpg", "Drinks"),
+        MenuItem("Iced Tea", 2.29, "/static/Images/iced_tea.jpg", "Drinks"),
+        MenuItem("Lemonade", 2.29, "/static/Images/lemonade.jpg", "Drinks")
     ]
 }
 
