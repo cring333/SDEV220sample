@@ -1,0 +1,58 @@
+Customer: Destiny (User: guest)
+  Classic Burger - $5.99
+  Cheese Burger - $6.49
+Total: $12.48
+---
+Customer: Destiny (User: guest)
+  Classic Burger - $5.99
+  Cheese Burger - $6.49
+  Soda - $1.99
+Total: $14.47
+---
+Customer: Destiny (User: guest)
+  Cheese Burger - $6.49
+  Veggie Burger - $5.49
+  Soda - $1.99
+Total: $13.97
+---
+Customer: Destiny (User: guest)
+  Classic Burger - $5.99
+  Cheese Burger - $6.49
+  Onion Rings - $2.99
+  Milkshake - $3.49
+  Iced Tea - $2.29
+Total: $21.25
+---
+Customer: Destiny (User: guest)
+  Spicy Jalapeño Burger - $6.99
+  Onion Rings - $2.99
+  Milkshake - $3.49
+Total: $13.47
+---
+Customer: Destiny (User: guest)
+  Fries - $2.49
+  Milkshake - $3.49
+Total: $5.98
+---
+Customer: Destiny (User: guest)
+  Spicy Jalapeño Burger - $6.99
+  Fries - $2.49
+  Soda - $1.99
+Total: $11.47
+---
+Customer: Destiny (User: guest)
+Veggie Burger - $5.49
+Onion Rings - $2.99
+Soda - $1.99
+Milkshake - $3.49
+Iced Tea - $2.29
+Total: $16.25
+---Customer: Destiny (User: guest)
+Cheese Burger - $6.49
+Onion Rings - $2.99
+Total: $9.48
+---Customer: Destiny (User: guest)
+Sweet Potato Fries - $3.49
+Iced Tea - $2.29
+Total: $5.78
+---

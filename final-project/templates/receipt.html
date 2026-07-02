@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Receipt - The Burger Spot</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="nav">
+    <h1>The Burger Spot</h1>
+    <div>
+      {% if user %}
+        <span>Welcome, {{ user }} | <a href="/logout">Logout</a></span>
+      {% else %}
+        <a href="/login">Login</a> |
+        <a href="/signup">Signup</a>
+      {% endif %}
+      |
+      <a href="/admin">Admin</a>
+    </div>
+  </div>
+
+  <main class="container">
+    <h2>Thank you, {{ customer }}!</h2>
+    <h3>Your Receipt</h3>
+    
+    <p><strong>Order Type:</strong> {{ order_type }}</p>
+
+    {% if order_type == "Delivery" %}
+      <p><strong>Phone:</strong> {{ phone }}</p>
+      <p><strong>Address:</strong> {{ address }}</p>
+    {% endif %}
+
+    <ul class="receipt-list">
+      {% for item in order %}
+        <li>{{ item.name }} - ${{ '%.2f'|format(item.price) }}</li>
+      {% endfor %}
+    </ul>
+
+    <h3>Total: ${{ '%.2f'|format(total) }}</h3>
+    <br />
+    <a href="/"><button type="button">Order Again</button></a>
+  </main>
+
+  <footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-section contact">
+      <h4>Contact Us</h4>
+      <p>Email: <a href="mailto:support@theburgerspot.com">support@theburgerspot.com</a></p>
+      <p>Phone: <a href="tel:+15551234567">(555) 123-4567</a></p>
+      <p>
+        Address: 
+        <a href="https://www.google.com/maps/place/Central+Park,+New+York,+NY" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          Central Park, New York, NY
+        </a>
+      </p>
+    </div>
+    <div class="footer-section hours">
+      <h4>Hours</h4>
+      <p>Mon-Fri: 10am - 9pm</p>
+      <p>Sat-Sun: 11am - 10pm</p>
+    </div>
+    <div class="footer-section social">
+      <h4>Follow Us</h4>
+      <p>
+        <a href="#" aria-label="Facebook">Facebook</a> | 
+        <a href="#" aria-label="Twitter">Twitter</a> | 
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+ 
+
+
+
+
+
+
+
