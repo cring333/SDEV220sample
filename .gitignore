@@ -1,0 +1,13 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local SQLite database file
+*.db
+
+# Flask instance files
+instance/
+
+# OS and editor files
+.DS_Store
+*.swp
