@@ -8,7 +8,7 @@ init_db()
 
 app = Flask(__name__)
 app.secret_key = "your_secure_secret_key_here"
-
+#
 ORDERS_FILE = "orders.txt" 
 USERS_FILE = "users.txt"
 ADMIN_PASSWORD = "admin123"
